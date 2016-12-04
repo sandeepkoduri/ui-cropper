@@ -52,7 +52,7 @@ angular.module('app', ['uiCropper'])
 });
 ```
 ``` html
-<ui-cropper image="myImage" result-image="myCroppedImage"></ui-cropper>
+<ui-cropper image="myImage" result-image="$parent.myCroppedImage"></ui-cropper>
 ```
 
 ## Documentation
